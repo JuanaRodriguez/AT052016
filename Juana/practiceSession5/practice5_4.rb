@@ -1,17 +1,24 @@
 
-#Clases
-#Para las clases una opcion es utilizar o no () para las variables, por ejemplo:
-class Claset
-	def initialize(variable)
-		@p = variable
-	end
-	def method_name		
-		return @p
+#Format(int, float, string)
+#En este caso de tipo  de variable, utilizare el siguiente formato, por ejemplo:
+puts "Insert a integer number:"
+variable = gets.chomp.to_i
+
+puts "Insert flotant number:"
+variable = gets.chomp.to_f
+
+puts "Insert a string:"
+variable = gets.chomp.to_s
+
+#Classes
+#Para las clases, utilizare el siguiente formato, por ejemplo:
+class Clase
+	def method_name
+		a = 8
+		puts "#{a}"
 	end
 end
-puts"Insert celsius grade:"
-celsius=gets.chomp.to_s
-variable = Claset.new(celsius)
+Clase.new.method_name
 
 #Methods
 #Para los  metodos no utilizare (), por ejemplo:
@@ -21,20 +28,9 @@ end
 metodo "tres"
 
 #If condition
-#Para las condicionantes una opcion es utilizar la siguiente linea de codigo, ejemplo:
+#Para las condicionantes una opcion es utilizar short-if, que es la que utilizare, ejemplo:
 resultado = (6 < 8) ? ("hola seis") : ("hola ocho")
 puts "#{resultado}"
-
-
-#Format(int, float, string)
-puts "Insert a integer number:"
-variable = gets.chomp.to_i
-
-puts "Insert flotant number:"
-variable = gets.chomp.to_f
-
-puts "Insert a string:"
-variable = gets.chomp.to_s
 
 
 

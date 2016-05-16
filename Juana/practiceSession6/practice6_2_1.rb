@@ -1,46 +1,39 @@
 =begin
-module	Semana
-	#ALGO = "alguito"
-	def Semana.semanas_en_meses
-		puts "Estas probando semanas en meses"
-	end
-	def Semana.semanas_en_anio
-		puts "Estas probando semanas en anios"
-	end
-end
-
-Semana.semanas_en_meses
-Semana.semanas_en_anio
+Administrator@AT01PJUARO001 MINGW64 /d/Test_folder/AT052016/Juana/practiceSession6 (master)
+$ ruby practice6_2_1.rb
+Good night
 =end
-
 module Saludos
-	def Saludos.s1
-		puts "Hi"	
+	def s1
+		saludo1 = "Hi"	
 	end
-	def Saludos.s2
-		puts "Good morning"
+	def s2
+		saludo2 = "Good morning"
 	end
-	def Saludos.s3
-		puts "Hello"
+	def s3
+		saludo3 = "Hello"
 	end
 end
 
 module Despedidas
-	def Despedidas.d1
+	def d1
 		despedida1 = "Bye"	
 	end
-	def Despedidas.d2
+	def d2
 		despedida2 = "Good night"
 	end
-	def Despedidas.d3
+	def d3
 		puts "Good bye"
 	end
 end
 
 class Saludines
 	include Saludos
-	include Despedidas	
+	include Despedidas
+
+	def sa		
+	end
 end
 
-Saludos.s1
-Despedidas.d3
+result = Saludines.new
+puts result.d2
