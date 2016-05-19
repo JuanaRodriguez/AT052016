@@ -1,4 +1,6 @@
+
 class Calculate_age
+
 	attr_writer :age
 	attr_writer :name
 	
@@ -17,6 +19,7 @@ class Calculate_age
 		else p "Su edad no se puede calcular #{name}"
 		end
 	end
+
 end
 a = Calculate_age.new
 p "Ingrese su edad: "

@@ -27,6 +27,5 @@ end
 
 a = Play.new
 s = a.metodo_uno
-t = a.metodo_uno
 a.metodo_dos s
-a.metodo_dos t
+

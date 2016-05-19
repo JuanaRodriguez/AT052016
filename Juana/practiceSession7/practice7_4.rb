@@ -48,6 +48,5 @@ p = a.method_create_hash
 a.method_print_key p
 a.method_print_value p
 a.method_print_hash p
-#a.method_exists_key p
-#a.method_exists_values p
-#a.method_exists_values p
+a.method_exists_key p
+a.method_exists_values p
