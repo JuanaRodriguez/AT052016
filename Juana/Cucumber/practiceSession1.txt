@@ -1,0 +1,44 @@
+CUCUMBER 
+
+•	When and why BDD was defined
+2009 Dan North, presented the BDD methodology in response to the problems encountered when teaching TDD:
+• Where to start in the process
+• To try and why not try
+• How much testing in a single opportunity
+• How to call evidence
+• Understanding why a test fails
+•	The most important aspects of BDD 
+•	Involves three voices business, development and testing.
+• Defines the use of pre-conditions, THEN WHEN GIVEN) for testing (it is a subset of natural language Gherkin)
+• Focus on Behavior
+• The syntax in the Gherkin is composed Feature and Scenario
+•	Why is useful and when could be applied.
+•	Collaboration 
+•	Simple Specification  -> Ubiquitous language
+•	Easy Feedback 
+•	Avoid rework in requirements definition
+•	Self-documentation 
+•	Focus on Behavior
+
+•	Which type of teams could implement BDD 
+Teams proactive and  involves business, development and testing.
+
+•	Structure of a feature – Give an example     
+     Name: Save person
+     Size [Optional]
+     Priority 1
+
+•	Structure of a user story – Give an example
+Title Save person
+Narrative:
+As administrator
+I want save person if only this person from Canada
+So that this will be inserted in the BD       
+
+•	Structure of a scenario – Give an example
+Feature: Save person
+As administrator
+I want save person if only this person from Canada
+So that this will be inserted in the BD       
+Scenario: combination from Canada and EEUU
+Scenario: From Canada only
