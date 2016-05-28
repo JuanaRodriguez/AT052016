@@ -3,3 +3,8 @@
 #Test Add user
 Feature: Add_user
 In this feature add an user, type administrator.
+
+
+dado
+cuando
+entonces
