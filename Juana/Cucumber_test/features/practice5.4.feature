@@ -1,17 +1,17 @@
-Feature: Daily activities
+Feature: Daily activities 1
 
 Background: Wakeup
 
 Given I get out of bed
-And I shower
-And I dress up
-When I'm ready
+	And I shower
+	And I dress up
+	When I'm ready
 Then I leave home
 
 Scenario: Have breakfast
 
 Given I have milk
-And I do eggs
+	And I do eggs
 When Is time to breakfast
 Then I breakfast
 
@@ -23,3 +23,4 @@ Given I need buy things
 | pencil     | 3      |
 | book       | 1      |
 Then I don't need anymore
+
